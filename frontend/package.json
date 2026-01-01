@@ -1,24 +1,30 @@
 {
-  "name": "frontend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "moto-service-frontend",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "@tanstack/react-query": "^5.90.16",
-    "axios": "^1.13.2",
-    "clsx": "^2.1.1",
-    "jwt-decode": "^4.0.0",
-    "lucide-react": "^0.562.0",
-    "react-hook-form": "^7.69.0",
-    "tailwind-merge": "^3.4.0",
-    "zod": "^4.3.4",
-    "zustand": "^5.0.9"
+    "@tailwindcss/postcss": "^4.1.18",
+    "clsx": "latest",
+    "lucide-react": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwind-merge": "latest",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
   }
 }
