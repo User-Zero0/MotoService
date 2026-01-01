@@ -1,0 +1,12 @@
+# Игнорируем зависимости
+node_modules/
+backend/bin/
+frontend/.next/
+
+# Игнорируем секреты
+.env
+.env.local
+.env.*.local
+
+# Игнорируем системные файлы Mac
+.DS_Store
